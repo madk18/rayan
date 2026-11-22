@@ -256,3 +256,30 @@ body{font-family:var(--sans);color:var(--ink);-webkit-font-smoothing:antialiased
 @media(prefers-reduced-motion:reduce){
  .hero-photo img,.about-image img,.product-card img,.category-card:after{transition:none}
 }
+
+
+/* Readability boost: body copy and navigation */
+body{font-size:16px}
+.navigation a{font-size:14px;font-weight:600}
+.hero-text{font-size:16px;line-height:1.85}
+.section-top>p{font-size:14px;line-height:1.85}
+.about-copy>p:not(.kicker){font-size:15px;line-height:1.9}
+.contact>p:not(.kicker){font-size:14px;line-height:1.8}
+.product-info p{font-size:12px;line-height:1.75}
+.stock-note{font-size:12px;line-height:1.8}
+.search-box input{font-size:13px}
+.filter{font-size:12px}
+.navigation a{padding-block:4px}
+@media(max-width:900px){
+ .navigation a{font-size:15px;padding:15px 5px}
+ .hero-text{font-size:15px}
+}
+@media(max-width:640px){
+ .navigation a{font-size:16px;padding:16px 5px}
+ .hero-text{font-size:15px;line-height:1.85}
+ .section-top>p{font-size:14px}
+ .about-copy>p:not(.kicker){font-size:14px}
+ .product-info p{font-size:11px}
+ .filter{font-size:11px}
+ .stock-note{font-size:11px}
+}
