@@ -47,5 +47,5 @@ search?.addEventListener("input",renderProducts);
 function closeMenu(){nav?.classList.remove("active");toggle?.setAttribute("aria-expanded","false");toggle.textContent="☰";}
 toggle?.addEventListener("click",()=>{const open=nav.classList.toggle("active");toggle.setAttribute("aria-expanded",String(open));toggle.textContent=open?"✕":"☰";});
 nav?.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMenu));
-window.addEventListener("resize",()=>{if(window.innerWidth>760)closeMenu();});
+window.addEventListener("resize",()=>{if(window.innerWidth>900)closeMenu();});
 renderProducts();
