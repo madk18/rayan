@@ -1,13 +1,28 @@
 const shopPhone = "252615500395";
 const products = [
- {name:"Barafuun qurux badan",category:"Barafuun",description:"Barafuun udgoon oo qurux badan.",image:"https://images.unsplash.com/photo-1594035910387-fea47794261f?w=700&auto=format&fit=crop"},
- {name:"Kareemka wajiga",category:"Kareemmo",description:"Alaabta daryeelka maqaarka.",image:"https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=700&auto=format&fit=crop"},
- {name:"Dhar qurux badan",category:"Dharka",description:"Dhar qurux badan oo casri ah.",image:"https://images.unsplash.com/photo-1483985988355-763728e1935b?w=700&auto=format&fit=crop"},
- {name:"Waxyaabaha carfinta",category:"Caraf",description:"Alaab caraf iyo udgoon leh.",image:"https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=700&auto=format&fit=crop"},
- {name:"Barafuun kale",category:"Barafuun",description:"Doorasho kale oo udgoon.",image:"https://images.unsplash.com/photo-1541643600914-78b084683601?w=700&auto=format&fit=crop"},
- {name:"Kareemka jirka",category:"Kareemmo",description:"Alaabta daryeelka jirka.",image:"https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=700&auto=format&fit=crop"},
- {name:"Dhar casri ah",category:"Dharka",description:"Dhar maalinle ah oo qurux badan.",image:"https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=700&auto=format&fit=crop"},
- {name:"Alaab udgoon",category:"Caraf",description:"Waxyaabo kale oo caraf leh.",image:"https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=700&auto=format&fit=crop"}
+ {name:"Barafuun 1",category:"Barafuun",description:"Barafuun udgoon ah. Nala soo xiriir si aad u ogaato faahfaahinta.",image:"images/barafuun.jpeg"},
+ {name:"Barafuun 2",category:"Barafuun",description:"Doorasho kale oo barafuun ah.",image:"images/barafuun1.jpeg"},
+ {name:"Barafuun 3",category:"Barafuun",description:"Barafuun kale oo dukaanka yaal.",image:"images/barafuun4.jpeg"},
+ {name:"Kareem 1",category:"Kareemmo",description:"Alaabta daryeelka maqaarka.",image:"images/kareem1.jpeg"},
+ {name:"Kareem 2",category:"Kareemmo",description:"Doorasho kale oo kareem ah.",image:"images/kareem2.jpeg"},
+ {name:"Dhar 1",category:"Dharka",description:"Dhar laga heli karo Rayan Cosmetics.",image:"images/dhar1.jpeg"},
+ {name:"Dhar 2",category:"Dharka",description:"Dhar laga heli karo Rayan Cosmetics.",image:"images/dhar2.jpeg"},
+ {name:"Dhar 3",category:"Dharka",description:"Dhar laga heli karo Rayan Cosmetics.",image:"images/dhar3.jpeg"},
+ {name:"Dhar 4",category:"Dharka",description:"Dhar laga heli karo Rayan Cosmetics.",image:"images/dhar4.jpeg"},
+ {name:"Dhar 5",category:"Dharka",description:"Dhar laga heli karo Rayan Cosmetics.",image:"images/dhar5.jpeg"},
+ {name:"Dhar 6",category:"Dharka",description:"Dhar laga heli karo Rayan Cosmetics.",image:"images/dhar6.jpeg"},
+ {name:"Dhar 7",category:"Dharka",description:"Dhar laga heli karo Rayan Cosmetics.",image:"images/dhar7.jpeg"},
+ {name:"Dhar 8",category:"Dharka",description:"Dhar laga heli karo Rayan Cosmetics.",image:"images/dhar8.jpeg"},
+ {name:"Dhar 9",category:"Dharka",description:"Dhar laga heli karo Rayan Cosmetics.",image:"images/dhar9.jpeg"},
+ {name:"Dhar 10",category:"Dharka",description:"Dhar laga heli karo Rayan Cosmetics.",image:"images/dhar10.jpeg"},
+ {name:"Dhar 11",category:"Dharka",description:"Dhar laga heli karo Rayan Cosmetics.",image:"images/dhar11.jpeg"},
+ {name:"Alaab caraf 1",category:"Caraf",description:"Alaabta carfinta iyo daryeelka.",image:"images/caraf1.jpeg"},
+ {name:"Alaab caraf 2",category:"Caraf",description:"Alaabta carfinta iyo daryeelka.",image:"images/caraf2.jpeg"},
+ {name:"Alaab caraf 3",category:"Caraf",description:"Alaabta carfinta iyo daryeelka.",image:"images/caraf3.jpeg"},
+ {name:"Deodorant",category:"Caraf",description:"Alaab caraf leh.",image:"images/dov1.jpeg"},
+ {name:"Saabuun",category:"Caraf",description:"Alaabta nadaafadda iyo daryeelka.",image:"images/sabuun1.jpeg"},
+ {name:"Shaambo",category:"Caraf",description:"Alaabta daryeelka timaha.",image:"images/shamboo1.jpeg"},
+ {name:"Spray",category:"Caraf",description:"Alaab caraf leh.",image:"images/spray.jpeg"}
 ];
 const list=document.getElementById("product-list");
 const search=document.getElementById("search");
