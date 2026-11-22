@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="so">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Rayan Cosmetics — dhar, kareemo, barafuun iyo alaabta carfinta. Baydhabo, Soomaaliya." />
+    <meta name="theme-color" content="#f8f4ee" />
+    <title>Rayan Cosmetics | Quruxdaada, doorashadaada</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">
+      RAYAN COSMETICS <span>•</span> BAYDHABO, SOOMAALIYA
+    </div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Rayan Cosmetics bogga hore"
+        ><img src="images/rayan-logo.png" alt="Rayan Cosmetics"
+      /></a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Fur liiska"
+        aria-controls="navigation"
+        aria-expanded="false">
+        ☰
+      </button>
+      <nav class="navigation" id="navigation" aria-label="Liiska bogga">
+        <a href="#home">Bogga hore</a><a href="#categories">Qaybaha</a
+        ><a href="#products">Alaabta</a><a href="#about">Nagu saabsan</a
+        ><a href="#contact">Xiriir</a>
+      </nav>
+      <a
+        class="header-cta"
+        href="https://wa.me/252615500395"
+        target="_blank"
+        rel="noopener"
+        >WhatsApp <span>↗</span></a
+      >
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="kicker"><span></span> KU SOO DHAWOOW RAYAN COSMETICS</p>
+          <h1>Quruxdaada.<br /><em>Doorashadaada.</em></h1>
+          <p class="hero-text">
+            Ka hel dhar, kareemo, barafuun iyo alaab caraf leh. Si fudud u baadh
+            alaabta, kadibna WhatsApp noogu soo dir dalabkaaga.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-dark" href="#products"
+              >Baadh alaabta <span>→</span></a
+            ><a
+              class="text-link"
+              href="https://wa.me/252615500395"
+              target="_blank"
+              rel="noopener"
+              >Nala hadal WhatsApp ↗</a
+            >
+          </div>
+          <div class="hero-note">
+            <span>✦</span> Dukaankaaga quruxda ee Baydhabo
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo">
+            <img
+              src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=1100&auto=format&fit=crop"
+              alt="Alaabta quruxda iyo daryeelka"
+              fetchpriority="high" />
+          </div>
+          <div class="photo-caption">
+            <small>RAYAN COSMETICS</small><strong>Qurux iyo kalsooni</strong>
+          </div>
+          <div class="round-stamp">BEAUTY<br />•<br />CARE</div>
+        </div>
+      </section>
+
+      <section class="categories section-wrap" id="categories">
+        <div class="section-top">
+          <div>
+            <p class="kicker">SOO BAADH</p>
+            <h2>Qaybaha dukaanka</h2>
+          </div>
+          <p>Wax kasta oo aad u baahan tahay, hal meel ka hel.</p>
+        </div>
+        <div class="category-grid">
+          <button class="category-card" data-category-link="Dharka">
+            <span class="category-symbol">01</span
+            ><span class="category-emoji">✳</span><strong>Dharka</strong
+            ><small>Dhar qurux badan</small
+            ><span class="category-arrow">↗</span>
+          </button>
+          <button class="category-card" data-category-link="Kareemmo">
+            <span class="category-symbol">02</span
+            ><span class="category-emoji">✧</span><strong>Kareemmo</strong
+            ><small>Daryeelka maqaarka</small
+            ><span class="category-arrow">↗</span>
+          </button>
+          <button class="category-card" data-category-link="Barafuun">
+            <span class="category-symbol">03</span
+            ><span class="category-emoji">❋</span><strong>Barafuun</strong
+            ><small>Udgoon kala duwan</small
+            ><span class="category-arrow">↗</span>
+          </button>
+          <button class="category-card" data-category-link="Caraf">
+            <span class="category-symbol">04</span
+            ><span class="category-emoji">✺</span><strong>Alaabta carfa</strong
+            ><small>Caraf iyo udgoon</small
+            ><span class="category-arrow">↗</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="products section-wrap" id="products">
+        <div class="section-top products-heading">
+          <div>
+            <p class="kicker">XULASHADA RAYAN</p>
+            <h2>Alaabtayada</h2>
+          </div>
+          <p>Dooro alaabta aad jeceshahay, annagana WhatsApp noogu soo dir.</p>
+        </div>
+        <div class="product-toolbar">
+          <label class="search-box"
+            ><span>⌕</span
+            ><input
+              id="search"
+              type="search"
+              placeholder="Raadi alaab..."
+              aria-label="Raadi alaabta"
+          /></label>
+          <div class="filters" aria-label="Kala saar alaabta">
+            <button class="filter active" data-filter="Dhammaan">
+              Dhammaan</button
+            ><button class="filter" data-filter="Dharka">Dharka</button
+            ><button class="filter" data-filter="Kareemmo">Kareemmo</button
+            ><button class="filter" data-filter="Barafuun">Barafuun</button
+            ><button class="filter" data-filter="Caraf">Caraf</button>
+          </div>
+        </div>
+        <div class="product-grid" id="product-list" aria-live="polite"></div>
+        <p class="stock-note">
+          Sawirradu waa tusaale muujinaya qaybaha alaabta. Qiimaha iyo
+          helitaanka alaabta kala xiriir dukaanka.
+        </p>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=1000&auto=format&fit=crop"
+            alt="Alaabta daryeelka iyo quruxda"
+            loading="lazy" />
+        </div>
+        <div class="about-copy">
+          <p class="kicker">SHEEKADA RAYAN</p>
+          <h2>Quruxda yar<br />ee farxadda<br /><em>weyn keenta.</em></h2>
+          <p>
+            Rayan Cosmetics waa dukaan ku yaal Baydhabo, Soomaaliya. Waxaan kuu
+            soo bandhignaa qaybo kala duwan oo ay ka mid yihiin dhar, kareemo,
+            barafuun iyo alaabta carfinta.
+          </p>
+          <p>
+            Ka baadh boggan alaabta, kadibna nala soo xiriir si aad u ogaato
+            qiimaha iyo helitaankeeda.
+          </p>
+          <a class="btn btn-outline" href="#contact"
+            >Nala soo xiriir <span>→</span></a
+          >
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contact">
+        <p class="kicker">DIYAAR MA U TAHAY DALABKAAGA?</p>
+        <h2>Waxaan kuu joognaa<br /><em>mar kasta.</em></h2>
+        <p>Su'aal ma qabtaa ama alaab ma rabtaa? WhatsApp nagala soo xiriir.</p>
+        <a
+          class="btn btn-light"
+          href="https://wa.me/252615500395"
+          target="_blank"
+          rel="noopener"
+          >WhatsApp nagala soo xiriir <span>↗</span></a
+        >
+        <div class="contact-meta">
+          <span>☎ +252 61 5500395</span><span>⌖ Baydhabo, Soomaaliya</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="#home" class="footer-brand">RAYAN <span>COSMETICS</span></a>
+      <p>Quruxdaada, doorashadaada.</p>
+      <p>Baydhabo, Soomaaliya</p>
+      <small>© 2026 Rayan Cosmetics. Xuquuqdu way dhowran tahay.</small>
+    </footer>
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/252615500395"
+      target="_blank"
+      rel="noopener"
+      aria-label="WhatsApp nagala soo xiriir"
+      >WhatsApp ↗</a
+    >
+  </body>
+</html>
