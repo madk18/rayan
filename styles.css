@@ -283,3 +283,46 @@ body{font-size:16px}
  .filter{font-size:11px}
  .stock-note{font-size:11px}
 }
+
+
+/* Strong global readability override — final cascade */
+body{font-size:18px}
+p{font-size:17px;line-height:1.9}
+a{font-size:16px}
+button{font-size:15px}
+.navigation a{font-size:17px;font-weight:700;padding:10px 0}
+.header-cta,.btn,.text-link,.order-btn,.floating-whatsapp{font-size:15px;font-weight:700}
+.filter{font-size:14px;padding:11px 17px}
+.category-card strong{font-size:25px}
+.category-card small{font-size:13px}
+.hero-text{font-size:18px;line-height:1.9}
+.section-top>p{font-size:16px;line-height:1.9}
+.about-copy>p:not(.kicker){font-size:17px;line-height:1.95}
+.contact>p:not(.kicker){font-size:16px;line-height:1.9}
+.product-info p{font-size:14px;line-height:1.8}
+.product-category{font-size:11px}
+.product-price{font-size:14px}
+.search-box input{font-size:16px}
+.stock-note{font-size:14px;line-height:1.9}
+.footer p{font-size:14px}
+.footer small{font-size:12px}
+.kicker{font-size:12px;letter-spacing:1.8px}
+@media(max-width:900px){
+ .navigation a{font-size:18px;padding:17px 6px}
+ .header-cta{font-size:14px}
+ .menu-toggle{font-size:26px}
+}
+@media(max-width:640px){
+ p{font-size:16px}
+ .hero-text{font-size:17px;line-height:1.9}
+ .navigation a{font-size:18px;padding:18px 6px}
+ .header-cta{font-size:14px}
+ .btn,.text-link,.order-btn,.floating-whatsapp{font-size:14px}
+ .filter{font-size:13px;padding:10px 12px}
+ .product-info p{font-size:13px}
+ .about-copy>p:not(.kicker){font-size:16px}
+ .section-top>p{font-size:15px}
+ .contact>p:not(.kicker){font-size:15px}
+ .stock-note{font-size:13px}
+ .footer p{font-size:13px}
+}
